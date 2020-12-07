@@ -17,7 +17,7 @@ body
 
 .logo
 {
-    color: white;
+    color: #25273c;
     position: absolute;
     top: 9%;
     left: 5%;
@@ -39,7 +39,7 @@ body
     left: 5%;
     right: 5%;
     width: 90%;
-    height: 7vh;
+    height: 50px;
     font-size: 20px;
     border-radius: 10px;   
     text-align: center;
@@ -60,14 +60,13 @@ ul{
 
 li
 {
-    padding: 17px;
+    padding: 10px;
     padding-left: 20px;
     font-family: monospace;
+    font-size: 17px;
     border-bottom: rgb(219, 216, 216) 1px solid;
 
 }
-
-
 
 @media only screen and (min-width:992px)
 {
@@ -91,6 +90,8 @@ li
         left: 30%;
         right: 30%;
         width: 40%;
+        height: 7vh;
+
     }
 
     ul{
@@ -98,5 +99,13 @@ li
         top: 35%;
         left: 30%;
         right: 30%;
+    }
+    li
+    {
+        padding: 17px;
+        padding-left: 20px;
+        font-family: monospace;
+        border-bottom: rgb(219, 216, 216) 1px solid;
+
     }
 }
